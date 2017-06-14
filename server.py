@@ -51,7 +51,7 @@ if __name__ == '__main__':
 	# Args for host and port
 	parser = argparse.ArgumentParser(description='My TCP server')
 	parser.add_argument('host',  help='Interface the server listens at')
-	parser.add_argument('-p', metavar='PORT', type=int,                                                help='TCP PORT (default 9999)')	
+	parser.add_argument('-p', metavar='PORT', type=int, help='TCP PORT (default 9999)')	
 	args = parser.parse_args()
 	host = args.host
 	port = args.p
